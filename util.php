@@ -32,6 +32,6 @@ function datesFromRange($start, $end, $format = 'Y-m-d') {
  * @author emil
  */
 spl_autoload_register(function ($class_name) {
-    include $class_name . '.php';
+    //test
 });
 ?>
