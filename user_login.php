@@ -28,22 +28,23 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <form action="reservation_activities.php">
+        <form action="reservation_view.php">
             <div class="msg_center">
 
                 <!DOCTYPE html>
                 <div class="form-container">
                     <h1>Login to confirm your booking</h1>
                     <section>
-                        <input #username type="text" name="username" placeholder="Username">
+                        <input #username type="text" name="username" placeholder="Username" value="test">
                         <br />
-                        <input #password type="password" name="password" placeholder="Password">
+                        <input #password type="password" name="password" placeholder="Password" value="test">
                         <br />
-                        <input type="Button" value="Back" onclick="history.back()"><button type="button" role="button" (click)="login($event, username, password)">Login</button>
+                        <input type="Button" value="Back" onclick="history.back()">
+                        <input type="submit" value="Login"/>
 
                     </section>
                 </div>
-
+                <a href="#" >Sign In</a>
             </div>
         </form>
     </body>
